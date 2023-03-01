@@ -1,0 +1,26 @@
+class2 -problem solving session
+1)Remove all adjacent duplicates in stringlength
+2)Remove all occurances of a substring
+3)Valid palindrome ||
+4)Minimum time difference
+5)Palindromic substring
+
+Homework:
+1) Valid anagraam 242
+2)reverse only letters (917)
+3)longest common prefix (14)
+4)reverse vowels of a string (345)
+5)isomorphic strings
+6)reorganise strings
+7)group anagrams
+8)longest palindeomic substring
+9)find index of first occurance in a string
+10)string to intiger
+11)string commpresion 
+12)intiger to roman
+13)zigzag conversion
+
+14)largest number (179)
+15)custom sort string (791)
+16)verify alien dictinary (953)
+17) longest word in dictionary(529)
