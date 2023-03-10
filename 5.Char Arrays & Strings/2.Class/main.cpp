@@ -123,8 +123,10 @@ using namespace std;
 
 int main(){
     //min difeerence
-    vector<string>st{"22:39","12:24","16:23","18:20"};
-    int ans=findMinDifference(st);
-    cout<<ans;
+    // vector<string>st{"22:39","12:24","16:23","18:20"};
+    // int ans=findMinDifference(st);
+    // cout<<ans;
+    string st="bb";
+    cout<<countSubstrings(st)<<endl;
     return 0;
 }
