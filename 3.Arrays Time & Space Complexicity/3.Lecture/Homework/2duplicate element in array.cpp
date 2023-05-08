@@ -10,7 +10,13 @@ void printVector(vector<int>arr){
     }
     cout << '\n';
 }
+int findDuplicate1(vector<int>& nums) {
+         while(nums[0]!=nums[nums[0]]){
+            swap(nums[0],nums[nums[0]]);
 
+        }
+        return nums[0];
+    }
 int findDuplicate(vector<int>arr){
     int n = arr.size();
     vector<int>cnts(n);
