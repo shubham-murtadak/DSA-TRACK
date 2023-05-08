@@ -2,8 +2,9 @@
 
 // https://www.geeksforgeeks.org/majority-element/
 
-#include<iostream>
+#include<bits/stdc++.h>
 #include<vector>
+#include<cmath>
 using namespace std;
 
 int majorityElement(vector<int>& nums) {
@@ -25,15 +26,22 @@ int majorityElement(vector<int>& nums) {
 }
 
 int main(){
-
-    int n;
-    cin>>n;
-    vector<int> arr(n);
-    for(int i=0; i<n; i++){
-        cin>>arr[i];
+  
+    
+    vector<int> arr={1,2,2,2,3};
+    int n=arr.size();
+    map<int,int>check;
+    for(int i=0;i<n;i++){
+        check[arr[i]]++;
     }
-    int ans = majorityElement(arr);
-    cout << ans << '\n';
+    map<int,int>::iterator it;
+    for(it=check.begin();it!=check.end();it++){
+       if(it->second >ceil(n/2)){
+         cout<<it->first<<" ";
+
+        }
+    }
+    
 
     return 0;
 }
